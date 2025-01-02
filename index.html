@@ -9,26 +9,75 @@
 </head>
 <body>
     <div class="container">
-        <div class="weather-input">
-            <div class="input-group">
-                <input type="text" id="userLocation" placeholder="Enter Location...">
-
-                <select class="converter" id="converter">
-                    <option>Select One</option>
-                    <option>°C</option>
-                    <option>°F</option>
-                </select>
-
-                <i class="fa fa-search"></i>
+        <div class="wrapper">
+            <div class="img_section">
+                <div class="default_info">
+                    <h2 class="default_day">Sunday</h2>
+                    <span class="default_date">02 January, 2025</span>
+                    <div class="icons">
+                        <img src="#" alt="">
+                        <h2 class="weather_temp">22°C</h2>
+                        <h3 class="cloudtext">Overcast Clouds</h3>
+                    </div>
+                </div>
             </div>
 
-            <div class="weatherIcon"></div>
-            <h2 class="temperature"></h2>
-            <div class="feelsLike"></div>
-            <div class="description"></div>
-            <hr>
-            <div class="date"></div>
-            <div class="city"></div>
+
+            <div class="content_section">
+                <form>
+                    <input type="text" placeholder="Enter Location...">
+                    <button type="submit" class="btn_search">Search </button>
+                </form>
+                <div class="day_info">
+                    <div class="content">
+                        <p class="title">NAME</p>
+                        <span class="value">Dhaka</span>
+                    </div>
+
+                    <div class="content">
+                        <p class="title">Temp</p>
+                        <span class="value">15°C</span>
+                    </div>
+
+                     <div class="content">
+                        <p class="title">Humidity</p>
+                        <span class="value">2%</span>
+                    </div>
+
+                     <div class="content">
+                        <p class="title">Wind Speed</p>
+                        <span class="value">8 km/>h</span>
+                    </div>
+                </div>
+
+                <div class="list_content">
+                    <ul>
+                        <li>
+                            <img src="#">
+                            <span>Sat</span>
+                            <span class="day_temp">15°C</span>
+                        </li>
+
+                         <li>
+                            <img src="#">
+                            <span>Sat</span>
+                            <span class="day_temp">15°C</span>
+                        </li>
+
+                         <li>
+                            <img src="#">
+                            <span>Sat</span>
+                            <span class="day_temp">15°C</span>
+                        </li>
+
+                         <li>
+                            <img src="#">
+                            <span>Sat</span>
+                            <span class="day_temp">15°C</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </body>
